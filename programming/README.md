@@ -46,3 +46,7 @@ Regarding the algorithm implementation, I have done two versions, which are dyna
   - Space Complexity: O(n) (input array)
 
 Reference of Rearrangement Inequality: https://en.wikipedia.org/wiki/Rearrangement_inequality
+
+
+# Task 2 - Stack, Two pointer
+
