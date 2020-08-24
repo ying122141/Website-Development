@@ -33,16 +33,16 @@ Since there is no guaranty that the largest n would give the maximal output, the
 
 Regarding the algorithm implementation, I have done two versions, which are dynamic programming (DP) and simple nested-for version. Both versions are the same logic but different ways to compute the dot product.
 
-For the DP, I would add the last level item sum by arr[k], dp[i][k] = dp[i-1][k] + arr[k], where k is pointer looping through the sorted array.
+- For the DP, I would add the last level item sum by arr[k], dp[i][k] = dp[i-1][k] + arr[k], where k is pointer looping through the sorted array.
 
-Time Complexity: O(n^2)
+  - Time Complexity: O(n^2)
 
-Space Complexity: O(n^2) (DP map)
+  - Space Complexity: O(n^2) (DP map)
 
-For the simple nested-for version, it loops through each n case and uses another for-loop to compute the dot product for each n case.
+- For the simple nested-for version, it loops through each n case and uses another for-loop to compute the dot product for each n case.
 
-Time Complexity: O(n^2)
+  - Time Complexity: O(n^2)
 
-Space Complexity: O(n) (input array)
+  - Space Complexity: O(n) (input array)
 
 Reference of Rearrangement Inequality: https://en.wikipedia.org/wiki/Rearrangement_inequality
