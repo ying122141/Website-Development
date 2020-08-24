@@ -55,7 +55,7 @@ This task can be simplified as finding the concaves in an array. Assuming i bein
 
 
 # Task 4 - Machine Learning
-Google colab link:
+Google colab link: https://colab.research.google.com/drive/1tiOPorBVebFo5FU4AUKoy01r6Yh8EIQI?usp=sharing
 
 1. What kinds of data pre-processing techniques you have applied in this task? and why?
 
