@@ -8,7 +8,7 @@
 # Task 1 - Dynamic Programming
 This task can be simplified as finding the n-subarray within an array which can return a maximal dot product. 
 
-According to rearrangement inequality, the maximum dot product can only be attained by using two sorted arrays with the same order. 
+According to rearrangement inequality, the maximal dot product can only be attained by using two sorted arrays with the same order. 
 
 Example:
 ```
