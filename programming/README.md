@@ -61,11 +61,11 @@ Google colab link: https://colab.research.google.com/drive/1tiOPorBVebFo5FU4AUKo
    
    - Data Imputation: Filling the missing values in dataset
    
-   - Data Standardization: When the estimators involve Euclidean distance and the features are in different units, the distance    would be misleading and dominate the objective function to produce poor predictions. To achieve better preformanca, I standardize the data using z = (x - u) / s, where x is data point, u is mean and s is standard deviation.
+   - Data Standardization: When the estimators involve Euclidean distance and the features are in different units, the distance would be misleading and dominate the objective function to produce poor predictions. To achieve better performance, I standardize the data using z = (x - u) / s, where x is a data point, u is mean and s is the standard deviation.
    
 2. What kinds of machine learning algorithm you have tried in this task?
 
-   - Support-Vector Machines (SVM) with different Kernel tricks
+   - Support-Vector Machines (SVM) with different kernel tricks
    
 3. Which methods perform the best in this task? and why?
 
