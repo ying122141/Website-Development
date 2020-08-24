@@ -57,6 +57,7 @@ Web scraping:
 I would use python web libraries and regex to extract text from different mutual fund HTML pages, save and consolidate the data in the pandas dataframe and output to JSON.
 
 APIs:
+
 Depending on the API interface, If it is Python API, I would use pandas dataframe to collect and edit the data and output to JSON format.
 
 # Task 4 - Machine Learning
