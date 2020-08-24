@@ -50,3 +50,18 @@ Reference of Rearrangement Inequality: https://en.wikipedia.org/wiki/Rearrangeme
 
 # Task 2 - Stack, Two pointer
 This task can be simplified as finding the concaves in an array. Assuming i being a pointer, the formulation of concave is based on the maximum height of right and left bound on i. The volume of the water can be computed by min(left, high) - arr[i]. With two pointers starting from beginning and end, it would update the maximum height for both sides and computer min(left, high) every round and sum up the water volume.
+
+# Task 3 - Data Collection
+
+
+# Task 4 - Machine Learning
+Google colab link:
+
+1. What kinds of data pre-processing techniques you have applied in this task? and why?
+
+2. What kinds of machine learning algorithm you have tried in this task?
+3. Which methods perform the best in this task? and why?
+4. How would you deal with the lack of training data in this task?
+5. How would you handle an imbalanced dataset in this task?
+6. How would you perform hyperparameter tuning/optimization in this task?
+6. How would you evaluate the model in this task?
