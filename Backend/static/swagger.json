@@ -1,0 +1,81 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+      "description": "Backend-Testing",
+      "version": "1.0.0",
+      "title": "Backend-Testing",
+      "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+      }
+    },
+    "servers": [
+      {
+        "url": "/"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Request",
+        "description": "Example API for requesting"
+      }
+    ],
+
+    "paths": {
+        "/api/expense": {
+
+          "post": {
+            "tags": [
+              "Create an expense record"
+            ],
+            "summary": "Create an expense",
+
+            "requestBody": {
+              "description": "Create an expense record.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/CreateExpense"
+                  }
+                }
+              }
+            },
+            "responses": {
+              "200": {
+                "description": "SUCCESSFULLY CREATED"
+              },
+              "404": {
+                "description": "404 NOT FOUND"
+              },
+              "401": {
+                "description": "UNAUTHORIZED"
+              }
+
+            }
+          }
+          
+        }
+        
+    },
+
+    "components": {
+      "schemas": {
+        "CreateExpense": {
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "number"
+            },
+            "category": {
+              "type": "string"
+            }
+            
+          }
+        }
+
+      }
+    }
+  }
+  
