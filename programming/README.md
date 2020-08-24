@@ -29,7 +29,7 @@ if n = 6
 Maximal output for this n: [6,5,4,3,2,1] * [3,2,1,-1,-2,-3]
 ```
 
-Since there is no guaranty that the largest n would give the maximal output, the goal is to try all the possibilities of n. However, if all the items in the array are positive, the maximal dot product must be n = size of an array. As for this, we could try n started from the numbers of positive items til the size of an array. For the above example, we could try n from 3 to 6 so that we could save some computations.
+Since there is no guaranty that the largest n would give the maximal output, the goal is to try all the possibilities of n. However, if all the items in the array are positive, the maximal dot product must be n = size of an array. As for this, we could try n starting from the numbers of positive items til the size of an array. For the above example, we could try n from 3 to 6 so that we could save some computations.
 
 Regarding the algorithm implementation, I have done two versions, which are dynamic programming (DP) and simple nested-for version. Both versions are the same logic but different ways to compute the dot product.
 
@@ -50,6 +50,10 @@ Reference of Rearrangement Inequality: https://en.wikipedia.org/wiki/Rearrangeme
 
 # Task 2 - Stack, Two pointer
 This task can be simplified as finding the concaves in an array. Assuming i being a pointer, the formulation of concave is based on the maximum height of right and left bound on i. The volume of the water can be computed by min(left, high) - arr[i]. With two pointers starting from beginning and end, it would update the maximum height for both sides and computer min(left, high) every round and sum up the water volume.
+
+  - Time Complexity: O(n)
+
+  - Space Complexity: O(n) (input array)
 
 # Task 3 - Data Collection
 Web scraping: 
