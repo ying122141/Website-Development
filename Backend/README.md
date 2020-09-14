@@ -1,6 +1,4 @@
-# Tasks completed
-
-- Create Expense Call
+# Create Expense Call
 
 I was able to create a MongoDB Atlas, connect to the DB and create a record by posting the request in Swagger UI. 
 
