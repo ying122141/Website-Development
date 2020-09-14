@@ -6,9 +6,9 @@ import json
 from bson import json_util, ObjectId
 
 try:
-    client = pymongo.MongoClient('mongodb://areixuser:<pw>@cluster0-shard-00-00.px1db.azure.mongodb.net:27017,cluster0-shard-00-01.px1db.azure.mongodb.net:27017,cluster0-shard-00-02.px1db.azure.mongodb.net:27017/expense?ssl=true&replicaSet=atlas-gd3kk5-shard-0&authSource=admin&retryWrites=true&w=majority')
-    db = client['expense']
-    collection = db['areix']
+    client = pymongo.MongoClient('<DB Address>')
+    db = client['<DB table>']
+    collection = db['<DB collection>']
 
     # Retrieve the last record ID
     lastRecordId = collection.find().sort([('_id',-1)]).distinct('record_id')[-1] + 1
